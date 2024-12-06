@@ -1,4 +1,5 @@
-# **DevOps Project - Django Application with Docker, Kubernetes, Terraform, AWS, and Jenkins CI/CD**
+# **DevOps Project @ Banque Misr Internship 2024**
+## **Django Application with Docker, Kubernetes, Terraform, AWS, and Jenkins CI/CD**
 
 ## **Overview**
 
