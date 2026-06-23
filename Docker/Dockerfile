@@ -1,6 +1,6 @@
 
 # Build Stage
-FROM python:3.11-alpine AS build
+FROM python:3.14.0rc1-alpine AS build
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 
@@ -24,7 +24,7 @@ RUN pip install --upgrade pip \
 COPY . .
 
 # Final Stage
-FROM python:3.11-alpine
+FROM python:3.14.0rc1-alpine
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 
